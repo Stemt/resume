@@ -1,0 +1,48 @@
+# Alaric de Ruiter
+
+# Experience
+
+## 2017 - Present
+    Restaurant de Hof
+    Senior dishwasing staff
+    As senior dishwashing staff I was ,alongside normal dishwashing activities, responsible for ensuring quality and timely operation of the dishwashing area. Further i was also responsible for making sure that at the end of the night the dishwashing area was properly cleaned and taken care off. And finally when the need was there i was also responsible for instructing new staff.
+
+## 2022 - Present
+    Seas of Solutions BV
+    Production associate
+    As production associate it is my job to assemble and test various assemblies for products made at Seas of Solutions.
+
+# Education
+
+## 2013 - 2018
+    HAVO with an N&T profile
+    Rembrandt College, Veenendaal
+    At the Rembrandt College I received a HAVO education with an N&T profile meaning a focus on physic, chemistry and biology alongside Math type B was laid.
+
+## 2018 - Present
+    HBO IT with an embedded software profile
+    Hogeschool Arnhem en Nijmegen (HAN)
+    At the HAN I have learned about software requirement analysis, modelling, design, implementation, testing and validation with an emphesis on embedded systems.
+
+# Skills
+
+## Programming languages
+- C/C++ ****
+- Python ****
+- Java **
+- R **
+- Javascript **
+
+## Technologies
+- MAKE ****
+- CMAKE ****
+- ROS ***
+- GLSL **
+- HTML **
+- CSS **
+
+## Project Management
+- SCRUM ****
+- Prototyping ****
+- RUP ***
+

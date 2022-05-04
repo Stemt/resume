@@ -1,0 +1,153 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 150vh;
+    width: 95vw;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar {
+    width: 30%;
+    height: 100%;
+    background-color: #3f3d3d;
+    color: #ffffff
+}
+
+.cv-body {
+    height: 100%;
+    background-color: #ffffff;
+    color: #ffffff
+}
+
+.h1 {
+    color: rgb(0, 0, 0);
+}
+
+.h2-type1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.h2-type2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.generic-text {
+    color: #000000;
+}
+
+.cv-occupation-collection {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-occupation-box {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.time-range-box {
+    width: 30%;
+}
+
+.activity-box {
+    width: 60%;
+}
+
+.cv-content-box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cv-skill-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cv-skill-group {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cv-skill-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000000;
+    padding: 5px;
+}
+
+.cv-competence-bar-background {
+    background-color: darkgray;
+    height: 20px;
+    width: 50%;
+}
+
+.cv-competence-bar {
+    background-color: rgb(231, 196, 1);
+    height: 100%;
+}
+
+.cv-subject-picture-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cv-subject-picture {
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+    background-image: url('pics/profile_pic.jpg');
+}
+
+.cv-personal-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cv-social-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cv-social-icon {
+    width:30%;
+    padding:5%;
+}
+
+.cv-social-icon:hover {
+    background-color: #535353;
+}
+
+.cv-local-hidable-info {
+    display: none; 
+}
+.cv-email-info:focus ~ #cv-email-info {display: block; }
+
+.box {
+    margin-left: 10px;
+    /* outline: 2px solid rgb(231, 196, 1); */
+}

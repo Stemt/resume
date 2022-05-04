@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV Alaric de Ruiter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <main style="height:100%;">
+        <div class="flex-container" style="height:100%;">
+            <div class="side-bar">
+
+                <div class="cv-subject-picture-container">
+                    <image src="pics/profile_pic.jpg" class="cv-subject-picture"></image>
+                </div>
+
+                <div class="cv-personal-info-container">
+                    <h1>Alaric de Ruiter</h1>
+                </div>
+
+                <div class="cv-social-container" style="margin-top: 10%;">
+                    <a class="cv-social-icon" href="https://github.com/Stemt" target="_blank" rel="noopener noreferrer">
+                        <image src="pics//GitHub-Mark-Light-120px-plus.png" style="width: 100%;"></image>
+                    </a>
+                    <a class="cv-social-icon" href="https://www.linkedin.com/in/alaric-de-ruiter" target="_blank" rel="noopener noreferrer">
+                        <image src="pics//sociallinkedin.png" style="width: 100%;"></image>
+                    </a>
+                    <a class="cv-email-info cv-social-icon"
+                        onclick="toggleEmail()">
+                        <image src="pics/mail_icon.png" style="width: 100%;"></image>
+                </a>
+                </div>
+
+                <script>
+                    function toggleEmail(){
+                        element = document.getElementById('cv-email-info');
+                        if(element.style.display == 'block'){
+                            element.style.display='none';
+                        }else{
+                            element.style.display='block';
+                        }
+                    }
+                </script>
+                <div class="cv-social-container" style="margin-top: 10%;">
+                    <h2 class="cv-local-hidable-info" id="cv-email-info">alaric0605@gmail.com</h2>
+                </div>
+
+            </div>
+            <div class="cv-body" style="width: 100%;">
+                <div class="box cv-content-box">
+                    <h1 class="h1">EXPERIENCE</h1>
+                    <div class="cv-occupation-collection">
+                        <div class="box cv-occupation-box">
+                            <div class="box time-range-box">
+                                <h2 class="h2-type1">2017 - Present</h2>
+                            </div>
+                            <div class="box activity-box">
+                                <h2 class="h2-type2">Restaurant de Hof</h2>
+                                <p class="generic-text">
+                                    Senior dishwasing staff
+                                </p>
+                                <p class="generic-text">
+                                    As senior dishwashing staff I was, alongside normal dishwashing activities,
+                                    responsible
+                                    for ensuring quality and timely operation of the dishwashing area. Further i was
+                                    also
+                                    responsible for making sure that at the end of the shift the dishwashing area was
+                                    properly cleaned and taken care off. And finally when the need was there i was also
+                                    responsible for instructing new staff.
+
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="box cv-occupation-box">
+                            <div class="box time-range-box">
+                                <h2 class="h2-type1">2022 - Present</h2>
+                            </div>
+                            <div class="box activity-box">
+                                <h2 class="h2-type2">Seas of Solutions BV</h2>
+                                <p class="generic-text">
+                                    Production Associate
+                                </p>
+                                <p class="generic-text">
+                                    As production associate it is my job to assemble and test various assemblies for
+                                    products made at Seas of Solutions including datarecorders and radio beacons.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box cv-content-box">
+                    <h1 class="h1">EDUCATION</h1>
+                    <div class="cv-occupation-collection">
+                        <div class="box cv-occupation-box">
+                            <div class="box time-range-box">
+                                <h2 class="h2-type1">2013 - 2018</h2>
+                            </div>
+                            <div class="box activity-box">
+                                <h2 class="h2-type2">HAVO with an N&T profile</h2>
+                                <p class="generic-text">
+                                    Rembrandt College, Veenendaal
+                                </p>
+                                <p class="generic-text">
+                                    At the Rembrandt College I received a HAVO education with an N&T profile meaning a
+                                    focus on physics, chemistry, biology and Math type B was laid.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="box cv-occupation-box">
+                            <div class="box time-range-box">
+                                <h2 class="h2-type1">2018 - Present</h2>
+                            </div>
+                            <div class="box activity-box">
+                                <h2 class="h2-type2"> HBO IT with an embedded software profile
+                                </h2>
+                                <p class="generic-text">
+                                    Hogeschool Arnhem en Nijmegen (HAN)
+                                </p>
+                                <p class="generic-text">
+                                    At the HAN I have learned about software requirement analysis, modelling, design,
+                                    implementation, testing and validation with an emphesis on embedded systems.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box cv-content-box">
+                    <h1 class="h1">SKILLS</h1>
+                    <div class="box cv-skill-section">
+
+                        <div class="box cv-skill-group">
+
+                            <h2 class="h2-type2">
+                                Programming languages
+                            </h2>
+                            <div class="box cv-skill-box">
+                                <span>C/C++</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>Python</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>Java</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:30%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>R</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:20%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>Javascript</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:20%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="box cv-skill-group">
+                            <h2 class="h2-type2">
+                                Technologies
+                            </h2>
+                            <div class="box cv-skill-box">
+                                <span>Make</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>CMake</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>ROS</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:60%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>GLSL</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:30%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>HTML/CSS</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:30%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="box cv-skill-group">
+                            <h2 class="h2-type2">
+                                Project Management
+                            </h2>
+                            <div class="box cv-skill-box">
+                                <span>SCRUM</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>Prototyping</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="box cv-skill-box">
+                                <span>RUP</span>
+                                <div class="cv-competence-bar-background">
+                                    <div class="cv-competence-bar" style="width:60%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
