@@ -5,25 +5,101 @@ body {
 }
 
 body {
-    height: 150vh;
+    height: 160vh;
     width: 95vw;
 }
+
 
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-.flex-container {
+.content-root {
+    position: relative;
     display: flex;
     flex-direction: row;
+    flex: 1;
+    height: 100%;
 }
 
 .side-bar {
+    positoin: fixed;
     width: 30%;
     height: 100%;
     background-color: #3f3d3d;
     color: #ffffff
+}
+
+.cv-skill-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cv-skill-group {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv-skill-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000000;
+    padding: 5px;
+}
+
+.cv-competence-bar-background {
+    background-color: darkgray;
+    height: 20px;
+    width: 50%;
+}
+
+.cv-competence-bar {
+    background-color: rgb(231, 196, 1);
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    .content-root {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        height: 100%;
+    }
+
+    .side-bar {
+        width: 100%;
+        height: 100%;
+        background-color: #3f3d3d;
+        color: #ffffff
+    }
+
+    .cv-skill-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cv-skill-group {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .cv-body {
@@ -76,37 +152,7 @@ body {
     flex-wrap: wrap;
 }
 
-.cv-skill-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-.cv-skill-group {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.cv-skill-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #000000;
-    padding: 5px;
-}
-
-.cv-competence-bar-background {
-    background-color: darkgray;
-    height: 20px;
-    width: 50%;
-}
-
-.cv-competence-bar {
-    background-color: rgb(231, 196, 1);
-    height: 100%;
-}
 
 .cv-subject-picture-container {
     display: flex;
@@ -115,7 +161,6 @@ body {
 
 .cv-subject-picture {
     width: 60%;
-    height: 80%;
     border-radius: 50%;
     background-image: url('pics/profile_pic.jpg');
 }
@@ -126,7 +171,7 @@ body {
     justify-content: center;
 }
 
-.cv-social-container{
+.cv-social-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -134,8 +179,8 @@ body {
 }
 
 .cv-social-icon {
-    width:30%;
-    padding:5%;
+    width: 30%;
+    padding: 5%;
 }
 
 .cv-social-icon:hover {
@@ -143,9 +188,12 @@ body {
 }
 
 .cv-local-hidable-info {
-    display: none; 
+    display: none;
 }
-.cv-email-info:focus ~ #cv-email-info {display: block; }
+
+.cv-email-info:focus~#cv-email-info {
+    display: block;
+}
 
 .box {
     margin-left: 10px;
